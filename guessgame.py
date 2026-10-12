@@ -14,4 +14,3 @@ elif guess <number :
     print("too low, try again!")
 else:
     print("too high, try again!")
-
