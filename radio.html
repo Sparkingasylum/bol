@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Radio buttons</title>
+    </head>
+    <body>
+        <h1>Radio Form</h1>
+        <form action="#" method="post">
+            <!-- # means the form will submit to the same page -->
+            <!-- method="post" means the form data will be sent as a POST request -->
+        <fieldset>
+            <input type="radio" id="Male" name="gender" value="male">
+            <!-- the radio button prompt is for the option to be in a circular format then the label will be associated with it -->
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="gender" value="other">
+            <label for="Other">Other</label><br>
+        </fieldset>
+        
+            <fieldset>
+                <input type="checkbox" id="bike" name="bike" value="bike">
+                <!-- the checkbox prompt is for the option to be in box format then the label will be associated with it -->
+                <label for="bike">I have a bike</label><br>
+                <input type="checkbox" id="car" name="car" value="car">
+                <label for="car">I have a car</label><br>
+                <input type="checkbox" id="boat" name="boat" value="boat">
+                <label for="boat">I have a boat</label><br>
+            </fieldset>
+
+            <fieldset>
+                <label for="color">Choose a color:</label>
+                <!-- the select prompt is for the option to be in a dropdown format then the label will be associated with it -->
+                <select id="color" name="color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select> <br><br/>
+                <input type="submit" value="Submit">
+            </fieldset>
+            
+        </form>
+
+    </body>
+</html>
